@@ -11,7 +11,7 @@ RUN corepack enable
 # Set the working directory to /app
 WORKDIR /app
 
-COPY n8nr custom-n8n-server
+COPY (git cloned directory) custom-n8n-server
 
 WORKDIR custom-n8n-server
 
